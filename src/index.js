@@ -34,7 +34,6 @@ export default function gendiff(filepath1, filepath2, format = "stylish") {
 
     console.log("\nПостроенное дерево различий:");
     console.log(formattedOutput);
-    return `Различия между ${filepath1} и ${filepath2} в формате ${format} (пока заглушка)`;
   } catch (error) {
     console.error("Ошибка при сравнении файлов:", error.message);
     process.exit(1);
