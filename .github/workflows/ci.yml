@@ -26,5 +26,5 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Run lint (если настроен eslint)
+      - name: Run lint
         run: npm run lint || true
